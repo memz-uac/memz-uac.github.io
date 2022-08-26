@@ -1,0 +1,348 @@
+.login {
+    width: 400px;
+}
+
+.g-bd {
+    width: 400px;
+    padding-bottom: 34px;
+    overflow: visible;
+}
+.g-bd.cnt-box-include {
+    padding-bottom: 50px;
+}
+
+.w-exception-normal .cnt .note {
+    font-size: 18px;
+}
+
+.m-cnt {
+    padding: 0 30px;
+    width: 340px;
+}
+
+.headimg {
+    display: none;
+}
+
+.m-header {
+    padding: 0;
+    height: 28px;
+    margin: 0;
+}
+
+.m-footer {
+    display: none;
+}
+
+.fur-change-email {
+    height: 16px;
+    line-height: 16px;
+    font-size: 0;
+}
+
+.m-cnt .m-nerror .ferrortail, .m-cnt .m-nerror .ferrortail2, .m-cnt .m-nerror .ferrortail3 {
+    display: none;
+    width: 16px !important;
+    height: 16px !important;
+    background: url("https://mimg.127.net/p/freemail/index/lib/img/urs/ico-error.png") no-repeat !important;
+}
+
+.u-loginbtn {
+    background: #3B78DD;
+    border-radius: 4px;
+}
+
+.u-loginbtn:hover {
+    background: #477EFF;
+}
+
+.u-loginbtn:active {
+    color: white;
+    background: #2E65E6;
+}
+
+.w-exception,
+.w-exception-normal {
+    width: 400px;
+}
+
+.w-exception .cnt {
+    width: 340px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.w-exception-normal .cnt {
+    width: 340px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input::-webkit-input-placeholder {
+    color: #DBDBDB;
+}
+
+input:-moz-placeholder {
+    color: #DBDBDB;
+}
+
+/* 十天内登录 */
+.m-cnt .m-unlogin .b-unlogn {
+    float: none;
+    overflow: hidden;
+    border-right: none;
+    width: auto;
+    margin-bottom: 110px;
+}
+
+.m-cnt .m-unlogin .b-unlogn label {
+    font-size: 14px;
+    color: #585E6D;
+    line-height: 18px;
+}
+
+.m-cnt .m-nerror {
+    margin-top: 8px;
+}
+
+.m-cnt .m-nerror .ferrorhead {
+    width: auto;
+    font-size: 12px;
+    color: #E55C5D;
+    line-height: 18px;
+    margin-top: -1px;
+}
+
+.m-cnt .u-input input {
+    width: 232px !important;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 16px;
+    border-radius: 6px;
+}
+
+.m-cnt .u-pwdtext {
+    display: inherit !important;
+}
+
+.m-cnt .u-logo div {
+    margin-top: 14px;
+}
+
+.m-cnt .u-success {
+    margin-top: 14px;
+}
+
+.m-cnt .u-logo {
+    display: none;
+}
+
+.m-cnt .u-logo .u-logo-img1 {
+    background: url("https://mimg.127.net/p/freemail/index/lib/img/urs/ico-user.png") no-repeat; /* TODO: 使用绝对链接 */
+}
+
+.m-cnt .u-logo .u-logo-img2 {
+    background: url("https://mimg.127.net/p/freemail/index/lib/img/urs/ico-password.png") no-repeat; /* TODO: 使用绝对链接 */
+}
+
+.m-cnt .u-pwdshow {
+    right: 0;
+}
+
+.m-cnt .m-eye-close {
+    margin-right: 30px !important;
+}
+
+.m-cnt .m-unlogin .b-unlogn .u-checkbox {
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    border: none;
+    background: url("https://mimg.127.net/p/freemail/index/lib/img/urs/icon_chk_checkbox@2x.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.m-cnt .m-unlogin .b-unlogn .u-checkbox-select {
+    width: 14px;
+    height: 14px;
+    background: url("https://mimg.127.net/p/freemail/index/lib/img/urs/ico_chk_checkbox_checked%402x.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.m-cnt #login-form .m-ckcnt {
+    margin-top: 22px;
+}
+
+.m-cnt .u-eye {
+    width: 22px;
+    height: 16px;
+    margin-top: 15px;
+    background: url("https://mimg.127.net/p/freemail/index/lib/img/urs/ico-eye-disabled@2x.png") no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.m-cnt .eyeactive .u-eye {
+    width: 22px;
+    height: 16px;
+    margin-top: 15px;
+    background: url("https://mimg.127.net/p/freemail/index/lib/img/urs/ico-eye@2x.png") no-repeat center center;
+    background-size: 16px 16px;
+}
+
+/* 调整登录按钮 */
+.loginbox {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.loginbox .u-loginbtn {
+    position: absolute;
+    bottom: 0px;
+    width: 340px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border: none;
+    /* margin-bottom: 36px; */
+}
+
+.m-cnt .m-unlogin {
+    padding-bottom: 56px;
+    font-size: 0;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.m-cnt .m-unlogin a {
+    color: #585E6D;
+}
+
+.m-cnt .m-unlogin a:hover {
+    color: #9095A2;
+}
+/* 忘记密码 */
+.m-cnt .m-unlogin .forgetpwd {
+    position: relative;
+    float: none;
+    color: #585E6D;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 18px;
+}
+.m-cnt .m-unlogin a.forgetpwd:after {
+    content: '';
+    padding-left: 1px;
+    width: 0;
+    height: 13px;
+    background-color: #B7BCC7;
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    color: #666;
+}
+/* 去注册按钮 */
+.m-cnt .m-unlogin .u-regbtn.bgcolor {
+    color: #585e6d;
+    font-size: 14px;
+    line-height: 20px;
+    float: none;
+}
+
+.m-cnt .m-unlogin .u-regbtn.bgcolor:hover {
+    color: #9095A2;
+}
+
+.m-cnt .inputbox {
+    min-width: 340px;
+    height: 46px;
+    border-color: #B7BCC7;
+    border-radius: 6px;
+}
+
+.m-cnt .inputbox.active {
+    border-color: #3B78DD;
+}
+
+.m-cnt .inputbox.error-color {
+    border: 1px solid #F63F3F;
+}
+/* 忘记密码样式 */
+.m-cnt .m-unlogin .forgetpwd:hover{
+    color: #9095A2;
+}
+
+.m-cnt .pr-domain {
+    color: #666;
+    right: -80px !important;
+}
+
+#account-box .u-tip {
+    display: none !important;
+}
+/* 二次登录页面按钮样式修改 */
+/* 左按钮 */
+.u-btn.bgcolor {
+    height: 44px;
+    line-height: 44px;
+    color: #3B78DD;
+    border: 1px solid #a7d4bd;
+    border-radius: 4px;
+    background: #E6F3EC;
+}
+
+.u-btn.bgcolor:hover {
+    background: #cee7da;
+}
+
+.u-btn.bgcolor:active {
+    background: #daede3;
+}
+
+/* 右按钮 */
+.btncolor {
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #3370FF;
+}
+
+.btncolor:hover {
+    background: #477EFF
+}
+
+.btncolor:active {
+    background: #2E65E6;
+}
+
+.m-cnt .u-clear {
+    margin-top: 15px;
+    width: 16px;
+    height: 16px;
+    background-image: url(https://mimg.127.net/p/freemail/index/lib/img/urs/ico-clear@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0;
+}
+/* 二次验证 */
+.m-cnt .m-pcbox .m-pc {
+    min-width: auto;
+    width: 206px !important;
+}
+
+.m-cnt .m-pc .pcin {
+    width: 150px !important;
+}
+
+.m-cnt .pcbtn .getsmscode {
+    height: 48px;
+    line-height: 48px;
+}
+
+.m-cnt .m-ckcnt .inputbox {
+    min-width: auto;
+}
+
+.m-cnt #login-form .m-ckcnt input.cktext {
+    width: 130px !important;
+}
